@@ -34,5 +34,8 @@ jobs:
         with:
           args: >
             -Dsonar.organization=bhos-qa
-            -Dsonar.projectKey=bhos-qa_lab-3-aykhanmv
+            -Dsonar.projectKey=bhos-qa_lab-4-aykhanmv
             -Dsonar.python.coverage.reportPaths=coverage.xml
+            -Dsonar.sources=app
+            -Dsonar.tests=app
+            -Dsonar.python.interpreter=python
