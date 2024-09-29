@@ -10,8 +10,7 @@ public class BusinessOperations {
 
     // 2. Check product stock availability
     public boolean isProductAvailable(int productId, int quantityRequested) {
-        // Simulate checking stock from a database or inventory
-        int availableStock = 100; // Example stock quantity
+        int availableStock = 100;
         return availableStock >= quantityRequested;
     }
 
@@ -41,13 +40,11 @@ public class BusinessOperations {
         if (paymentMethod == null || amount <= 0) {
             return false;
         }
-        // Simulate payment processing
         return true;
     }
 
     // 7. Send notification to customer
     public void sendNotification(String customerEmail, String message) {
-        // Simulate sending notification
         System.out.println("Notification sent to " + customerEmail + ": " + message);
     }
 
