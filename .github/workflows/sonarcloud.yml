@@ -40,3 +40,4 @@ jobs:
             -Dsonar.sources=app
             -Dsonar.tests=app
             -Dsonar.python.interpreter=python
+            -X
