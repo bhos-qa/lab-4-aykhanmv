@@ -38,6 +38,8 @@ jobs:
         uses: sonarsource/sonarcloud-github-action@v1.5
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          JAVA_HOME: /opt/hostedtoolcache/Java_Adopt_jdk/17.0.12-7/x64
+          PATH: /opt/hostedtoolcache/Java_Adopt_jdk/17.0.12-7/x64/bin:$PATH
         with:
           args: >
             -Dsonar.organization=bhos-qa
